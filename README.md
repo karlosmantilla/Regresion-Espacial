@@ -528,9 +528,9 @@ summary(mod.lm)
     
 
 
-Como se observa, el modelo se ajusta bien, el $R^2$ es alto y puede significar que existe una relación espúria (es entendible pero, para efectos del ejercicio, se puede continuar con el modelo)
+Como se observa, el modelo se ajusta bien, el $R^2$ es alto y puede significar que existe una relación espuria (es entendible dadas las variables seleccionadas pero, para efectos del ejercicio, se va a continuar con el modelo)
 
-Ahora, se puede construis una gráfica de los residuales para analizar si, en estos, queda algún componente espacial:
+Ahora, se puede construir una gráfica de los residuales para analizar si, en estos, queda algún componente espacial:
 
 
 ```R
@@ -774,4 +774,4 @@ summary(mod.sdm)
     
 
 
-Se observa: $\rho = -0.010621 (0.9031)$ y $\theta = -0.021808 (0.84371)$ lo que implica que no hay componente espacial en la interdependencia (esto se debe a la relación espúria que se describió enteriormente). El análisis de los residuales no se hará por motivos prácticos
+Se observa: $\rho = -0.010621 (0.9031)$ y $\theta = -0.021808 (0.84371)$ lo que implica que no hay componente espacial en la interdependencia (esto se debe a la relación espuria que se describió enteriormente). El análisis de los residuales no se hará por motivos prácticos
